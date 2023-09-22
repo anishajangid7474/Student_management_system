@@ -3,7 +3,7 @@
 ## A simple console program to manage student's official data.
 
 Store records like student_id, name, course, department, phone no. etc.
-It writes records into a .csv file that can be opened with any spreadsheet software like google sheets,microsoft excel,libreoffice calc.
+It writes records into a .csv file that can be opened with any spreadsheet software like google sheets,microsoft excel etc.
 
 >**Note**
 > As I have used the linux/unix specific library *unistd.h* to use functions like `sleep()` and `system("clear")`, the cpp files will  only compile on linux/unix based operating systems. Soon I'll be adding detailed steps on **changes to be made to compile these files on other operating system like Windows.**
